@@ -1,0 +1,7 @@
+:root {
+    --ac-brand-color:  #7B606B;
+    --primary-font: times;
+}
+.primary {
+    color: var(--ac-brand-color) !important;
+}
