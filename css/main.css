@@ -1,7 +1,44 @@
-:root {
-    --ac-brand-color:  #7B606B;
-    --primary-font: times;
+.bg-primary {
+    background-color: rgb(125,95,108,49) !important;
+} 
+.bg-secondary {
+    background-color: rgb(223,222,216,87) !important;
+} 
+.bg-danger{
+    background-color: rgb(255,232,232,100) !important;
 }
-.primary {
-    color: var(--ac-brand-color) !important;
+.text-primary{
+    color: rgb(125,95,108,49) !important;
+
 }
+
+
+.carousel-caption {
+    top: 250px;
+}
+
+/* Border Fade */
+@mixin border-fade {
+	$borderWidth: 4px;
+
+	@include hacks();
+	@include prefixed(transition-duration, $mediumDuration);
+	@include prefixed(transition-property, box-shadow);
+	box-shadow:
+			inset 0 0 0 $borderWidth $primaryColor,
+			0 0 1px rgba(0, 0, 0, 0); /* Hack to improve aliasing on mobile/tablet devices */
+
+	&:hover,
+	&:focus,
+	&:active {
+		box-shadow:
+			inset 0 0 0 $borderWidth $activeColor,
+			0 0 1px rgba(0, 0, 0, 0); /* Hack to improve aliasing on mobile/tablet devices */
+	}
+}
+
+
+
+/* Desktop: 1000px
+Tablet: 750px
+Mobile: 400px */

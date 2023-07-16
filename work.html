@@ -11,9 +11,9 @@
   <body>
         <!-- respinsive nav with a logo  -->
       
-      
+      <header role="banner">
         <nav class="navbar navbar-expand-sm bg-body-tertiary">
-                    <div class="container-fluid">
+                    <div class="container-fluid bg-secondary">
                         <a class="navbar-brand" href="index.html">
                           <img class="navbar-brand" src="images/logo.png" alt="logo" width="70" height="70">
                            
@@ -52,6 +52,7 @@
                         </div>
                     </div>
           </nav>
+        </header>
 
 
         <!-- work -->
@@ -60,62 +61,82 @@
         </div>
     <!-- welcome section with two cols,reverse order at mobile -->
         
-    <section class="mt-5" >
-        <div class="container">
+    <article class="mt-5 mb-5" role="article">
+        <div class="container bg-primary">
             <div class="row">
                     <div class="col-sm-6">
-                        <img src="images/glow.JPG" width="300" height="300" alt="logo">
+                        <img src="images/glow.JPG" class="img-fluid" alt="logo">
                     </div>
                 <div class="col">
-                            <p>I skillfully utilized grid properties to lay out the emoji cards,
-                            ensuring a clean and organized design. I employed flexbox properties
-                            to arrange the content within each card, creating a visually appealing 
-                            display. With meticulous attention to detail, I arranged the emoji card
-                            content in the exact order depicted in the image, maintaining consistency 
-                            and clarity.
+                            <p class="text-justify text-white ">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
+                                 voluptates corporis iste tempora, eius sint accusamus quaerat
+                                  vero veritatis veniam debitis at adipisci aperiam ullam unde
+                                   rerum culpa suscipit voluptatum!
                             </p>
-        
-                            <p>Additionally, I used a flexbox property to align the buttons
-                            in each card with the bottom of the card, adding a touch of elegance and
-                            precision to the overall layout.
-                            </p> 
+                            <p class="text-justify text-white ">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
+                                voluptates corporis iste tempora, eius sint accusamus quaerat
+                                 vero veritatis veniam debitis at adipisci aperiam ullam unde
+                                  rerum culpa suscipit voluptatum!
+                           </p>
                 </div>
             </div>
         </div>
+    </article>
 
-            <div class="container">
+    <article class="mt-5 mb-5" role="article">
+            <div class="container bg-primary">
                 <div class="row">
                     <div class="col-sm-6">
-                        <img alt="engagement-photo" src="images/engagement-photo.jpeg" width="300" height="300" id="Engagement photo">
+                        <br>
+                        <img alt="engagement-photo" src="images/engagement-photo.jpeg"  class="img-fluid" id="Engagement photo">
                     </div>
                 <div class="col">
-                    <p>In the softly lit room, the air is filled with anticipation 
+                    <p class="text-justify text-white ">
+                        In the softly lit room, the air is filled with anticipation 
                         as the engaged couple stands gracefully before the camera,
                         their eyes gleaming with love and excitement. 
                         A gentle stream of light casting a warm and romantic 
                         glow on the couple's embrace. I was able to skillfully
-                    capture their tender moments, freezing time as they share 
-                    laughs.
+                       capture their tender moments, freezing time as they share 
+                       laughs.
+                    </p>
+                    <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+                        Read more
+                      </button>
                     </p>
 
-                    <p> The props and elegant decor provide
-                    a charming backdrop, accentuating the couple's radiant joy. 
-                    Every click of the shutter immortalizes their love story,
-                        showcasing their connection and creating a collection of 
-                        heartfelt images that will be treasured for a lifetime.
-                    </p>
+                    <div style="min-height: 120px;">
+                      <div class="collapse collapse-horizontal" id="collapseWidthExample">
+                        <div class="card card-body mb-5" style="width: 550px;">
+                        
+                            <p class="text-justify text-dark">
+                            The props and elegant decor provide
+                            a charming backdrop, accentuating the couple's radiant joy. 
+                            Every click of the shutter immortalizes their love story,
+                            showcasing their connection and creating a collection of 
+                            heartfelt images that will be treasured for a lifetime.
+                            </p>
+                        </div>
+                      </div>
+                    </div> 
                 </div>
             </div>
+    </article>
 
            
-            <div class="container">
+    <article class="mt-5 mb-5" role="article">
+            <div class="container bg-primary">
                 <div class="row">
                     <div class="col-sm-6">
-                        <img alt="Portrait" src="images/portrait.png" id="Portrait" width="300" height="300">
+                        <br>
+                        <img alt="Portrait" src="images/portrait.png" id="Portrait"  class="img-fluid">
                     </div>
                 
                     <div class="col">
-                        <p> I carefully position my subject,
+                        <p class="text-justify text-white ">
+                             I carefully position my subject,
                             bathed in the warm glow of reflected light streaming
                             through a nearby window. The person, adorned with an
                             air of elegance, holds a delicate bouquet of flowers,
@@ -124,25 +145,45 @@
                             allows the subject's radiance and the floral arrangement to take center stage.
                         </p>
 
-                        <p>Every detail is thoughtfully composed, capturing the essence of
+                        <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+                            Read more
+                          </button>
+                        </p>
+
+                        <div style="min-height: 120px;">
+                          <div class="collapse collapse-horizontal" id="collapseWidthExample">
+                            <div class="card card-body mb-5" style="width: 550px;">
+                            
+                            <p class="text-justify text-dark">
+
+                            Every detail is thoughtfully composed, capturing the essence of
                             the person's grace and the timeless beauty of the flowers.
                             With a click of the shutter, the photographer effortlessly 
                             freezes this moment, immortalizing the harmony between simplicity,
                             light, and the delicate connection between the subject and nature.
-                        </p>
+                            
+                            </p>
+                            </div>
+                          </div>
+                        </div>
+                        
                     </div>
                  </div>
             </div>
+    </article>
 
 
-            <div class="container">
+
+    <article class="mt-5 mb-5" role="article">
+            <div class="container bg-primary">
                 <div class="row">
                     <div class="col-sm-6">
-                        <img alt="Grid and Flex" src="images/grid&fex.png" width="300" height="300" id="Grid and Flex">
+                        <br>
+                        <img alt="Grid and Flex" src="images/grid&fex.png"  class="img-fluid" id="Grid and Flex">
                     </div>
                 
                     <div class="col">
-                        <p>I skillfully utilized grid properties to lay out the emoji cards,
+                        <p class="text-justify text-white ">I skillfully utilized grid properties to lay out the emoji cards,
                             ensuring a clean and organized design. I employed flexbox properties
                             to arrange the content within each card, creating a visually appealing 
                             display. With meticulous attention to detail, I arranged the emoji card
@@ -150,41 +191,72 @@
                             and clarity.
                             </p>
         
-                            <p>Additionally, I used a flexbox property to align the buttons
-                            in each card with the bottom of the card, adding a touch of elegance and
-                            precision to the overall layout.
-                            </p> 
+                            <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+                                Read more
+                              </button>
+                            </p>
+    
+                            <div style="min-height: 120px;">
+                              <div class="collapse collapse-horizontal" id="collapseWidthExample">
+                                <div class="card card-body mb-5" style="width: 550px;">
+                                
+                                <p class="text-justify text-dark">
+    
+                                    Additionally, I used a flexbox property to align the buttons
+                                    in each card with the bottom of the card, adding a touch of elegance and
+                                    precision to the overall layout.
+                                </p>
+                                </div>
+                              </div>
+                            </div> 
                     </div>
                  </div>
             </div>
+    </article>
 
-            <div class="container">
+
+    <article class="mt-5 mb-5" role="article">
+            <div class="container bg-primary">
                 <div class="row">
                     <div class="col-sm-6">
-                        <img alt="website" src="images/website.png" width="300" height="300" id="website">
+                        <br>
+                        <img alt="website" src="images/website.png"  class="img-fluid" id="website">
                     </div>
                 
                     <div class="col">
-                        <p>As a web coder and designer, my task for this midterm was to create
+                        <p class="text-justify text-white ">As a web coder and designer, my task for this midterm was to create
                             a single-page website based on the given prototype design. I 
                             carefully followed the layout specified in the prototype, while
                             also incorporating the provided content and images. The header
                             section featured an image with the site title positioned on top
                             of it using the appropriate HTML tags.
                             </p>
-        
-                            <p>In the article section,I ensured that the text wrapped around
-                                the image correctly. When displaying the facts, I utilized
-                                proper syntax to list them in an  organized manner. For the 
-                                form, I linked all the input fields to their corresponding labels,
-                                ensuring a seamless user experience. Throughout the development 
-                                process, I strived to replicate the  mockup design as closely as
-                                possible, while allowing for changes in subject, images, and color as needed.
-                            </p> 
+                            <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+                                Read more
+                              </button>
+                            </p>
+    
+                            <div style="min-height: 120px;">
+                              <div class="collapse collapse-horizontal" id="collapseWidthExample">
+                                <div class="card card-body mb-5" style="width: 550px;">
+                                
+                                <p class="text-justify text-dark">
+                                    In the article section,I ensured that the text wrapped around
+                                    the image correctly. When displaying the facts, I utilized
+                                    proper syntax to list them in an  organized manner. For the 
+                                    form, I linked all the input fields to their corresponding labels,
+                                    ensuring a seamless user experience. Throughout the development 
+                                    process, I strived to replicate the  mockup design as closely as
+                                    possible, while allowing for changes in subject, images, and color as needed.
+                                </p>
+                                </div>
+                              </div>
+                            </div> 
                     </div>
                  </div>
             </div>
-        </section>
+    </article>
+      
 
 
  <!-- Back to top button  --> 
@@ -195,19 +267,14 @@
 
 
 
-
-
-
-
-<hr>
         <!-- footer  -->
        
-        <div class="container-fluid">
+        <div class="container-fluid mt-5 bg-danger">
             <div class="row">
-                <footer class="col">
-                    <img src="images/logo.png" alt="logo" width="70" height="70">
-                          
-                    
+                <footer class="col" role="contentinfo">
+                  <a class="navbar-brand" href="index.html"> 
+                     <img src="images/logo.png" alt="logo" width="70" height="70">
+                  </a>
                     <p><a class="nav-link" href="work.html">My work</a></p>
                     <p><a class="nav-link" href="about.html">About</a></p>
                     <p><a class="nav-link" href="contact.html">Contact</a></p> 
@@ -218,6 +285,7 @@
                 </footer>
             </div>
         </div>
+
 
 
 

@@ -13,9 +13,9 @@
 
         <!-- respinsive nav with a logo  -->
       
-      
-        <nav class="navbar navbar-expand-sm bg-body-tertiary">
-                    <div class="container-fluid">
+      <header role="banner">
+        <nav class="navbar navbar-expand-sm bg-body-tertiary" role="navigation">
+                    <div class="container-fluid bg-secondary">
                         <a class="navbar-brand" href="index.html">
                           <img src="images/logo.png" class="navbar-brand" alt="logo" width="70" height="70">
                            
@@ -54,7 +54,7 @@
                         </div>
                     </div>
           </nav>
-
+        </header>
 
 
         <!-- slideshow -->
@@ -107,8 +107,8 @@
                         <div class="carousel-item">
                           <img src="images/slide/flower5.jpeg" class="d-block w-100" alt="slide 6">
                           <div class="carousel-caption py-5">
-                            <h1 class="fw-bold">Jennifer Akpieyi</h1>
-                            <p>Graphic Designer</p>
+                            <h1 class="fw-bold display-1">Jennifer Akpieyi</h1>
+                            <p class="font-weight-light">Graphic Designer</p>
                             </div>
                         </div>
                     </div>
@@ -122,43 +122,43 @@
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Next</span>
                   </button>
-                  <button>
-                      <span><i class="fa-solid fa-chevron-down" style="color: #ffffff;"></i></span>
-                  </button>
+                  
                 </div>
-
+                  <div class="skiplink">
+                      <a href="#message"><i class="fa-solid fa-chevron-down text-danger text-center" style="color: #ffffff;"></i></a>
+                 </div>
 
 
 
         <!-- welcome message -->
+  <main role="main" id="message">
+          <div class="mb-5">
+              <div class="container">
+                  <div class="row py-5">
+                      <div class="col text-center">
+                          <h1 class="fw-bold text-primary mb-3">Welcome!</h1>
 
-        <div class="mb-5">
-            <div class="container">
-                <div class="row py-5">
-                    <div class="col text-center">
-                        <h1 class="text-primary">Welcome!</h2>
-
-                        <p>Welcome to my portfolio website!
-                           Here, you'll discover a collection
-                        of my creative endeavors and professional 
-                        achievements. Take a moment to explore my
-                         work and get to know me better.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
+                          <p class="text-justify">Welcome to my portfolio website!
+                            Here, you'll discover a collection
+                          of my creative endeavors and professional 
+                          achievements. Take a moment to explore my
+                          work and get to know me better.</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+  </main>
 
 
 
-
-<hr>
         <!-- footer  -->
        
-        <div class="container-fluid">
+        <div class="container-fluid mt-5 bg-danger">
             <div class="row">
-                <footer class="col">
-                    <img src="images/logo.png" alt="logo" width="70" height="70">
-                          
+                <footer class="col" role="contentinfo">
+                  <a class="navbar-brand" href="index.html"> 
+                     <img src="images/logo.png" alt="logo" width="70" height="70">
+                  </a>
                     <p><a class="nav-link" href="work.html">My work</a></p>
                     <p><a class="nav-link" href="about.html">About</a></p>
                     <p><a class="nav-link" href="contact.html">Contact</a></p> 
