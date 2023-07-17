@@ -1,3 +1,7 @@
+
+/* Colour scheme  */
+
+
 .bg-primary {
     background-color: rgb(125,95,108,49) !important;
 } 
@@ -12,10 +16,10 @@
 
 }
 
-
+/* 
 .carousel-caption {
-    top: 250px;
-}
+    top: 290px;
+} */
 
 /* Border Fade */
 @mixin border-fade {
@@ -37,15 +41,45 @@
 	}
 }
 
+/* for the back to top link  */
 .fa-custom {
-	font-size: 6rem; /* Adjust the font size as desired */
+	font-size: 6rem;
 }
 
-.border {
-    border: var(--bs-border-width) 
-	var(--bs-border-style) #000000!important;
+
+/* for the skip link  */
+.fa-customm {
+	font-size: 1.5rem;
 }
 
-/* Desktop: 1000px
-Tablet: 750px
-Mobile: 400px */
+/* footer  */
+.logo-container {
+	float: left;
+  }
+
+
+  /* nav  */
+.custom-nav{
+	display: flex;
+    justify-content: space-evenly;
+}
+
+.identity{
+	padding-bottom: 10rem!important;
+}
+
+/* next and pevious icon  */
+.carousel-control-next-icon {
+	padding-bottom: 22rem!important;
+}
+
+.carousel-control-prev-icon {
+	padding-bottom: 22rem!important;
+}
+
+
+/* :root {
+    --bs-breakpoint-sm: 320px;
+    --bs-breakpoint-md: 750px;
+    --bs-breakpoint-lg: 1000px;
+} */
