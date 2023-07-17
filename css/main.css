@@ -59,14 +59,28 @@
 
 
   /* nav  */
+.navbar{
+	/* position: absolute; */
+}
+
+
+
 .custom-nav{
 	display: flex;
     justify-content: space-evenly;
 }
 
-.identity{
+/* .identity{
 	padding-bottom: 10rem!important;
-}
+} */
+
+.carousel-caption{
+	position: absolute;
+	top: 30%;
+} 
+
+
+
 
 /* next and pevious icon  */
 .carousel-control-next-icon {
@@ -83,3 +97,19 @@
     --bs-breakpoint-md: 750px;
     --bs-breakpoint-lg: 1000px;
 } */
+
+
+
+
+
+
+/* font-family: 'Akatab', sans-serif; */
+
+
+
+
+/* tablet  */
+
+@media screen and (min-width: 750px) {
+
+}
