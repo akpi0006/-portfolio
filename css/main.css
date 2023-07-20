@@ -105,8 +105,29 @@
 
 .skills{
 	box-shadow: 0 0.25rem 1rem #0002;
-	color: black !important;
+	border-success: black !important;
 }
 .fa-circle-arrow-right{
 	font-size: 3rem;
 }
+.border-success{
+    color: black !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
