@@ -15,29 +15,19 @@
     color: rgb(125,95,108,49) !important;
 }
 
-/* Border Fade */
-@mixin border-fade {
-	$borderWidth: 4px;
+.send-contact{
+	border: 5px solid #48444e;
+	background: white;
+	transition: 1s;
+}
 
-	@include hacks();
-	@include prefixed(transition-duration, $mediumDuration);
-	@include prefixed(transition-property, box-shadow);
-	box-shadow:
-			inset 0 0 0 $borderWidth $primaryColor,
-			0 0 1px rgba(0, 0, 0, 0); /* Hack to improve aliasing on mobile/tablet devices */
-
-	&:hover,
-	&:focus,
-	&:active {
-		box-shadow:
-			inset 0 0 0 $borderWidth $activeColor,
-			0 0 1px rgba(0, 0, 0, 0); /* Hack to improve aliasing on mobile/tablet devices */
-	}
+.send-contact:hover {
+	background: #d6d6d6;
 }
 
 /* for the back to top link  */
 .fa-custom {
-	font-size: 6rem;
+	font-size: 5rem;
 }
 
 
@@ -47,15 +37,20 @@
 }
 
 /* footer  */
-.logo-container {
-	float: left;
-  }
-
-
 
 .carousel-caption{
 	position: absolute;
-	top: 30%;
+	top: 40%;
+
+} 
+.carousel-caption-skip{
+	position: absolute;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	width: 100%;
+	bottom: 50px;
+	z-index: 9;
 } 
 
 
@@ -71,33 +66,13 @@
 }
 
 
-/* :root {
-    --bs-breakpoint-sm: 320px;
-    --bs-breakpoint-md: 750px;
-    --bs-breakpoint-lg: 1000px;
-} */
-
-
-
-
-
-
 /* font-family: 'Akatab', sans-serif; */
 
 
 
-
-/* tablet  */
-
-@media screen and (min-width: 750px) {
-
-}
-
-
-
 .skills{
-	box-shadow: 0 0.25rem 1rem #0002;
-	border-success: black !important;
+	box-shadow: 0 0.25rem 1rem #002;
+	border-success: rgb(89, 89, 89) !important;
 }
 .fa-circle-arrow-right{
 	font-size: 3rem;
@@ -107,9 +82,14 @@
 }
 
 
+.fa-circle-arrow-right{
+color: #d2beef;
+}
 
-
-
+#logo-footer{
+	width :70px;
+	height :70px;
+}
 
 
 
