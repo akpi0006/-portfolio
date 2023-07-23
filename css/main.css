@@ -22,7 +22,7 @@
 }
 
 .send-contact:hover {
-	background: #d6d6d6;
+	background: #bde1e6;
 }
 
 /* for the back to top link  */
@@ -91,7 +91,9 @@ color: #d2beef;
 	height :70px;
 }
 
-
+.fa-bars{
+	font-size: 1.5rem;
+}
 
 
 
