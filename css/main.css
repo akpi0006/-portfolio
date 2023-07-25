@@ -14,24 +14,38 @@
 .text-primary{
     color: rgb(125,95,108,49) !important;
 }
+.bg-warning{
+    background-color: rgb(136, 177, 136) !important;
+}
+.bg-info{
+    background-color:#d9d5e0 !important;
+}
+
+.form-control{
+	box-shadow: 0 0.15rem 1rem #002;	
+}
 
 .send-contact{
 	border: 5px solid #48444e;
 	background: white;
 	transition: 1s;
+	box-shadow: 0 0.25rem 1rem #002;
 }
 
 .send-contact:hover {
 	background: #bde1e6;
+	box-shadow: 0 0.15rem 1rem #002;
 }
 
 /* for the back to top link  */
+
 .fa-custom {
 	font-size: 5rem;
 }
 
 
 /* for the skip link  */
+
 .fa-customm {
 	font-size: 1.5rem;
 }
@@ -41,8 +55,9 @@
 .carousel-caption{
 	position: absolute;
 	top: 40%;
+}
 
-} 
+
 .carousel-caption-skip{
 	position: absolute;
 	display: flex;
@@ -53,9 +68,6 @@
 	z-index: 9;
 } 
 
-
-
-
 /* next and pevious icon  */
 .carousel-control-next-icon {
 	padding-bottom: 22rem!important;
@@ -65,25 +77,37 @@
 	padding-bottom: 22rem!important;
 }
 
+.identity p{
+	font-family: 'Quicksand', sans-serif;
+}
 
-/* font-family: 'Akatab', sans-serif; */
+body{
+  font-family: 'Akatab', sans-serif; 
+}
 
 
-
-.skills{
-	box-shadow: 0 0.25rem 1rem #002;
+.card{
+	box-shadow: 0 0.15rem 1rem #002;
 	border-success: rgb(89, 89, 89) !important;
 }
+
+.skills{
+	box-shadow: 0 0.15rem 1rem #002;
+	border-success: rgb(89, 89, 89) !important;
+}
+
 .fa-circle-arrow-right{
 	font-size: 3rem;
 }
+
 .border-success{
     color: black !important;
 }
 
 
 .fa-circle-arrow-right{
-color: #d2beef;
+	color: #d2beef;
+	font-size: 2rem;
 }
 
 #logo-footer{
@@ -95,6 +119,9 @@ color: #d2beef;
 	font-size: 1.5rem;
 }
 
+.brands{
+	font-size: 1.5rem;
+}
 
 
 
