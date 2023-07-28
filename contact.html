@@ -13,21 +13,20 @@
 </head>
   <body>
         <!-- respinsive nav with a logo  -->
-      
 <header role="banner" id="top">
   <nav class="navbar-main navbar navbar-expand-sm bg-body-tertiary p-0" role="navigation">
     <div class="container-fluid bg-secondary">
 
       <a class="navbar-brand" href="index.html">
-        <img src="images/logo.png" class="navbar-brand" alt="logo" width="70" height="70">
+        <img src="images/logo.svg" class="navbar-brand" alt="logo" width="60" height="60">
         </a>
 
       <button class="btn text-black d-block d-sm-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
         <i class="fa-solid fa-bars"></i>
       </button>
       
-      <div class="offcanvas offcanvas-end text-black bg-secondary" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel"
-      style="width: 250px; height: 400px;">
+      <div class="offcanvas offcanvas-end text-black bg-secondary" tabindex="-1" id="offcanvasExample">
+  
             <div class="offcanvas-header">
               <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
@@ -51,8 +50,8 @@
                             </li>
                         </ul>
                   </div>
-        </div>
-        </div>
+                </div>
+      </div>
       </nav>
 </header>
              
@@ -65,19 +64,19 @@
 <form role="form">
         <br>
         <div class="mt-3 mb-4">
-            <input type="name" class="form-control" id="InputName" aria-describedby="name" placeholder="Name*"  required>
+            <input class="form-control" id="fullname" type="text" aria-describedby="name" placeholder="Name*">
         </div>
         
         <div class="mb-4">
-            <input type="email" class="form-control" id="InputEmail" aria-describedby="email" placeholder="Email*"  required>
+            <input class="form-control" id="email" type="email" aria-describedby="email" placeholder="Email*"  required>
         </div>
           
         <div class="mb-4">
-            <input type="subject" class="form-control" id="InputSubject" aria-describedby="Subject" placeholder="Subject*"  required>
+            <input class="form-control" id="Subject" type="text" aria-describedby="Subject" placeholder="Subject*"  required>
         </div>
           
         <div class="mb-4">
-            <input type="message" class="form-control" id="InputMessage" aria-describedby="message" placeholder="Type you message here…">
+            <textarea class="form-control" id="message" aria-describedby="message" placeholder="Type you message here…"></textarea>
         </div>
         
           <!-- Button trigger modal -->
@@ -87,7 +86,7 @@
 
 
           <!-- Modal -->
-          <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+          <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-hidden="true">
             <div class="modal-dialog">
               <div class="modal-content bg-warning">
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
@@ -95,10 +94,8 @@
                     We'll chat soon!
                   </div>
                     <div class="modal-footer">
-                      <a class="text-decoration-none" href="index.html">
-                        <button type="button" class="card btn bg-info text-black text-center btn border-3 border-3 text-primary mb-3 fw-bold rounded-2">
+                      <a class="text-decoration-none card btn bg-info text-black text-center btn border-3 border-3 text-primary mb-3 fw-bold rounded-2" href="index.html">
                           Home
-                        </button>
                       </a>
                     </div>
                 </div>
@@ -115,7 +112,7 @@
   <div class="row">
     <div class="col-sm-2">
       <a class="d-none d-sm-block" href="index.html"> 
-      <img  src="images/logo.png" alt="logo" id="logo-footer">
+      <img  src="images/logoii.svg" alt="logo" id="logo-footer">
   </a>
     </div>
     <div class="col-sm-10 mt-sm-4">
