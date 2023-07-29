@@ -1,7 +1,6 @@
+/* general  */
 
 /* Colour scheme  */
-
-
 .bg-primary {
     background-color: rgb(125,95,108,49) !important;
 } 
@@ -21,43 +20,39 @@
     background-color:#d9d5e0 !important;
 }
 
-.form-control{
-	box-shadow: 0 0.15rem 1rem #002;	
+/* footer logo  */
+#logo-footer{
+	width :50px;
+	height :50px;
 }
 
-.send-contact{
-	border: 5px solid #48444e;
-	background: white;
-	transition: 1s;
-	box-shadow: 0 0.25rem 1rem #002;
+/* hamburger  */
+.fa-bars{
+	font-size: 1.5rem;
 }
 
-.send-contact:hover {
-	background: #f2e1f8;
-	box-shadow: 0 0.15rem 1rem #002;
+/* footer social links  */
+.brands{
+	font-size: 1.5rem;
 }
 
-/* for the back to top link  */
-
-.fa-custom {
-	font-size: 5rem;
+/* navigation offcanvas  */
+.offcanvas{
+	width: 100px; 
+	height: 400px;
 }
-
-
 /* for the skip link  */
-
 .fa-customm {
 	font-size: 1.5rem;
 }
 
-/* footer  */
-
+/* slideshow caption  */
 .carousel-caption{
 	position: absolute;
 	top: 40%;
 }
 
-
+/* slideshow caption skip link */
 .carousel-caption-skip{
 	position: absolute;
 	display: flex;
@@ -77,15 +72,60 @@
 	padding-bottom: 22rem!important;
 }
 
+/* font for slideshow caption   */
 .identity p{
 	font-family: 'Quicksand', sans-serif;
 }
 
+
+/* button hover  */
+.send-contact{
+	border: 5px solid #48444e;
+	background: white;
+	transition: 1s;
+	box-shadow: 0 0.25rem 1rem #002;
+}
+
+.send-contact:hover {
+	background: #f2e1f8;
+	box-shadow: 0 0.15rem 1rem #002;
+}
+
+/* style for body text   */
 body{
   font-family: 'Akatab', sans-serif; 
 }
 
+.border-success{
+    color: black !important;
+}
 
+
+
+
+
+
+
+
+
+
+
+/* work page  */
+
+/* for the back to top link  */
+.fa-custom {
+	font-size: 5rem;
+}
+
+/* read more card  */
+.col .top_card{
+   min-height: 120px;
+}
+.collapse .card{
+	width: 300px;
+}
+
+/* shadows for card skills  */
 .card{
 	box-shadow: 0 0.15rem 1rem #002;
 	border-success: rgb(89, 89, 89) !important;
@@ -96,44 +136,51 @@ body{
 	border-success: rgb(89, 89, 89) !important;
 }
 
+/* skip link  */
 .fa-circle-arrow-right{
 	font-size: 3rem;
-}
-
-.border-success{
-    color: black !important;
-}
-
-
-.fa-circle-arrow-right{
 	color: #d2beef;
 	font-size: 2rem;
 }
 
-#logo-footer{
-	width :50px;
-	height :50px;
+
+
+
+
+
+
+
+
+
+
+/* contact page  */
+
+/* shadow for contact form */
+.form-control{
+	box-shadow: 0 0.15rem 1rem #002;	
 }
 
-.fa-bars{
-	font-size: 1.5rem;
-}
 
-.brands{
-	font-size: 1.5rem;
-}
 
-.offcanvas{
-	width: 100px; 
-	height: 400px;
-}
 
-.col .top_card{
-   min-height: 120px;
-}
-.collapse .card{
-	width: 300px;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

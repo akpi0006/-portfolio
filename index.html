@@ -18,7 +18,7 @@
   <body>
   <!-- respinsive nav with a logo  -->
       
-  <header role="banner" id="top">
+<header role="banner" id="top">
     <nav class="navbar-main navbar navbar-expand-sm bg-body-tertiary p-0" role="navigation">
       <div class="container-fluid bg-secondary">
   
@@ -30,37 +30,43 @@
           <i class="fa-solid fa-bars"></i>
         </button>
         
+        <!-- offcanvas for mobile  -->
+
         <div class="offcanvas offcanvas-end text-black bg-secondary" tabindex="-1" id="offcanvasExample">
-              <div class="offcanvas-header">
-                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-              </div>
-                  <div class="offcanvas-body">
-                            <ul class="navbar-nav ms-sm-auto mb-2 mb-lg-0 d-flex align-items-center">
-                    
-                              <li class="nav-item">
-                                  <a class="nav-link active fw-bold px-sm-4 px-md-5" aria-current="page" href="index.html">Home</a>
-                              </li>
-  
-                              <li class="nav-item">
-                                  <a class="nav-link px-sm-4 px-md-5" href="work.html">My work</a>
-                              </li>
-  
-                              <li class="nav-item">
-                                  <a class="nav-link px-sm-4 px-md-5" href="about.html">About</a>
-                              </li>
-  
-                              <li class="nav-item">
-                                  <a class="nav-link px-sm-4 px-md-5" href="contact.html">Contact</a>
-                              </li>
-                          </ul>
-                    </div>
+          <div class="offcanvas-header">
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+           </div>
+              <div class="offcanvas-body">
+                        <ul class="navbar-nav ms-sm-auto mb-2 mb-lg-0 d-flex align-items-center">
+                
+                          <li class="nav-item">
+
+                            <!-- current page  -->
+
+                              <a class="nav-link active fw-bold px-sm-4 px-md-5" aria-current="page" href="index.html">Home</a>
+                          </li>
+
+                          <li class="nav-item">
+                              <a class="nav-link px-sm-4 px-md-5" href="work.html">My work</a>
+                          </li>
+
+                          <li class="nav-item">
+                              <a class="nav-link px-sm-4 px-md-5" href="about.html">About</a>
+                          </li>
+
+                          <li class="nav-item">
+                              <a class="nav-link px-sm-4 px-md-5" href="contact.html">Contact</a>
+                          </li>
+                      </ul>
+                </div>
+            </div>
           </div>
-          </div>
-        </nav>
-  </header>
+      </nav>
+</header>
 
         
           <!-- slideshow -->
+
           <div class="position-relative">
             <div id="carouselExampleCaptions" class="carousel slide">
               <div class="carousel-indicators">
@@ -70,6 +76,9 @@
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
               </div>
+
+              <!-- skip link to welcome message on every slide  -->
+
               <div class="carousel-caption-skip">
                   <a href="#message">
                     <i class="fa-solid fa-chevron-down fa-customm text-white"></i>
@@ -113,6 +122,9 @@
                   </div>
                 </div>
               </div>
+
+              <!-- previous and next button  -->
+
               <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
@@ -145,30 +157,28 @@
           </div>
   </main>
 
-
-<div class="d-flex  justify-content-center mb-5">
-  <a href="work.html" class="text-center btn border-3 text-primary mb-3 fw-bold send-contact rounded-2">
-    Explore
-  </a>
-</div>
-
-
-
-
-<div class="text-center mt-5">
-    <a href="#top">
-      <i class="fa-solid fa-chevron-up text-black"></i>
-    </a>
-</div>
+<!-- link to work page  -->
+    <div class="d-flex  justify-content-center mb-5">
+      <a href="work.html" class="text-center btn border-3 text-primary mb-3 fw-bold send-contact rounded-2">
+        Explore
+      </a>
+    </div>
 
 
 
- 
+    <!-- bact to top button  -->
+
+      <div class="text-center mt-5">
+          <a href="#top">
+            <i class="fa-solid fa-chevron-up text-black"></i>
+          </a>
+      </div>
+
+
  
  <!-- footer  -->
 
  <div class="container-fluid bg-danger mt-5">
-  
       <footer class="text-center" role="contentinfo">
       <div class="row">
         <div class="col-sm-2">
@@ -176,6 +186,9 @@
           <img  src="images/logoii.svg" alt="logo"  id="logo-footer">
       </a>
         </div>
+
+        <!-- footer nav pages -->
+
         <div class="col-sm-10 mt-sm-4">
 
                   <div class="footer-links d-flex justify-content-around flex-column flex-sm-row">
@@ -192,6 +205,9 @@
 
                   </div>
         </div>
+
+        <!-- footer external links -->
+
                 <div class="col">
                   <div class="footer-social-links  d-flex justify-content-between">
                     <p>
